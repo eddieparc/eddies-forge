@@ -1,0 +1,24 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+dist/
+coverage/
+*.log
+
+# Private runtime data and credential exports
+/data/
+/state/
+/backups/
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+*.csv
+*.rayconfig
+*.key
+*.pem
